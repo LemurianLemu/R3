@@ -103,16 +103,25 @@ button {
     cursor: pointer;
     filter: invert(0);
     max-width: 32px;
+    -moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   background: #000;
+    border-radius: 50%;
+}
 }
 
 .pigs video{
     position: relative;
     max-width: 800px;
     outline: none;
+    display: none;
 }
 .pigs.active{
     visibility: visible;
     opacity: 1;
+    
 }
 
 .pigs .video{
@@ -125,4 +134,10 @@ button {
     top: -15px;
     right: -15px;
     font-size: 2rem;
+    -moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   background: #000;
+    border-radius: 50%;
 }
